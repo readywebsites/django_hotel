@@ -55,7 +55,7 @@ ROOT_URLCONF = 'projectname.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],
+        'DIRS': [BASE_DIR / 'templates'], #templates hear is the name of the root floder of html files
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
